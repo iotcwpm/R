@@ -1,0 +1,17 @@
+Package: FLCore
+Version: 2.5.20151008
+Depends: methods, R(>= 3.0), lattice, MASS
+Imports: grid, stats, graphics
+License: GPL (>= 2)
+MD5sum: 10aefcfa6d1b434ad7e65a21033e5960
+NeedsCompilation: no
+
+Package: ggplotFL
+Version: 2.5.20141027
+Depends: R(>= 3.0.0), ggplot2(>= 1.0.0), FLCore, gridExtra, reshape2
+Imports: plyr
+Suggests: knitr
+License: GPL-2
+MD5sum: e9e6a0709a69459f21fa7b3dc5e57be1
+NeedsCompilation: no
+
