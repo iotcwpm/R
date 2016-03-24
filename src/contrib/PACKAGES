@@ -1,9 +1,17 @@
+Package: FLash
+Version: 2.5.2
+Depends: R(>= 2.15.0), FLCore(>= 2.5), methods
+License: GPL-2
+MD5sum: f8159ecdb4751ef474d3fadca319e8fa
+NeedsCompilation: yes
+
 Package: FLCore
-Version: 2.5.20151008
-Depends: methods, R(>= 3.0), lattice, MASS
-Imports: grid, stats, graphics
+Version: 2.6.0.20160316
+Depends: R(>= 3.0),
+Imports: methods, utils, lattice, MASS, Matrix, grid, stats, graphics
+Suggests: testthat
 License: GPL (>= 2)
-MD5sum: 10aefcfa6d1b434ad7e65a21033e5960
+MD5sum: cfc96a45187e66373b4bc595484f6e0c
 NeedsCompilation: no
 
 Package: ggplotFL
@@ -16,9 +24,10 @@ MD5sum: e9e6a0709a69459f21fa7b3dc5e57be1
 NeedsCompilation: no
 
 Package: ioalbmse
-Version: 0.1.8
+Version: 0.1.9
 Depends: R (>= 3.2.2), r4ss, FLCore (>= 2.5.20151008), shiny, ggplotFL,
         dplyr
-MD5sum: 1b895a6e485743c0c3bc1c1d67abfa8a
+License: European Union Public License
+MD5sum: 2dcb877b634e5f55fe7d5b8784e061b4
 NeedsCompilation: no
 
