@@ -6,12 +6,12 @@ MD5sum: f8159ecdb4751ef474d3fadca319e8fa
 NeedsCompilation: yes
 
 Package: FLCore
-Version: 2.6.0.20160316
-Depends: R(>= 3.0),
-Imports: methods, utils, lattice, MASS, Matrix, grid, stats, graphics
+Version: 2.6.0.20160401
+Depends: R(>= 3.0), MASS
+Imports: methods, utils, lattice, Matrix, grid, stats, graphics
 Suggests: testthat
 License: GPL (>= 2)
-MD5sum: cfc96a45187e66373b4bc595484f6e0c
+MD5sum: 2ca17adbcc1148e1332b8456f5f56a5a
 NeedsCompilation: no
 
 Package: ggplotFL
@@ -24,10 +24,10 @@ MD5sum: e9e6a0709a69459f21fa7b3dc5e57be1
 NeedsCompilation: no
 
 Package: ioalbmse
-Version: 0.1.9
-Depends: R (>= 3.2.2), r4ss, FLCore (>= 2.5.20151008), shiny, ggplotFL,
-        dplyr
+Version: 0.1.13
+Depends: R (>= 3.2.2), r4ss, FLCore (>= 2.5.20160316), shiny, ggplotFL,
+        dplyr, FLash, foreach
 License: European Union Public License
-MD5sum: 2dcb877b634e5f55fe7d5b8784e061b4
+MD5sum: 4afdac11d4646fb214f8c353fbb9211a
 NeedsCompilation: no
 
