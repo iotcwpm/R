@@ -5,29 +5,55 @@ License: GPL-2
 MD5sum: f8159ecdb4751ef474d3fadca319e8fa
 NeedsCompilation: yes
 
+Package: FLBRP
+Version: 2.5.20150204
+Depends: FLCore(>= 2.3), FLash, ggplotFL, plyr, reshape
+LinkingTo: FLash
+License: GPL-2
+MD5sum: be98df62e09c1f013e8b37f629f4c79f
+NeedsCompilation: yes
+
 Package: FLCore
-Version: 2.6.0.20160401
+Version: 2.6.0.20160427
 Depends: R(>= 3.0), MASS
 Imports: methods, utils, lattice, Matrix, grid, stats, graphics
 Suggests: testthat
 License: GPL (>= 2)
-MD5sum: 2ca17adbcc1148e1332b8456f5f56a5a
+MD5sum: e8a72ecf76d0586872268e79729a48d8
+NeedsCompilation: no
+
+Package: FLife
+Version: 0.9.1
+Depends: R(>= 3.0.1), FLCore(>= 2.5), ggplotFL, methods
+Imports: FLBRP
+License: GPL (>= 2)
+MD5sum: 03f83dd637a4f2eb814cd56d86ca1c10
 NeedsCompilation: no
 
 Package: ggplotFL
-Version: 2.5.20141027
-Depends: R(>= 3.0.0), ggplot2(>= 1.0.0), FLCore, gridExtra, reshape2
-Imports: plyr
-Suggests: knitr
+Version: 2.5.20160430
+Depends: R(>= 3.0.0), ggplot2(>= 2.0.0), FLCore
+Imports: methods, gridExtra
+Suggests: knitr, rmarkdown, reshape2
 License: GPL-2
-MD5sum: e9e6a0709a69459f21fa7b3dc5e57be1
+MD5sum: 0f49c046bfe18315294062e0ed1808ef
+NeedsCompilation: no
+
+Package: ggstance
+Version: 0.0.0.9000
+Depends: R (>= 3.2.2)
+Imports: ggplot2 (>= 2.0), purrr (>= 0.2), lazyeval
+Suggests: magrittr, import, svglite, testthat, vdiffr
+License: GPL-3
+MD5sum: 098c328bbf72ce2c286878a5a484c114
 NeedsCompilation: no
 
 Package: ioalbmse
-Version: 0.1.13
-Depends: R (>= 3.2.2), r4ss, FLCore (>= 2.5.20160316), shiny, ggplotFL,
-        dplyr, FLash, foreach
+Version: 0.1.24
+Depends: R (>= 3.2.2), FLCore (>= 2.5.20160316), FLBRP, FLife, FLash
+Imports: shiny, methods, ggplotFL, ggstance, data.table, foreach, r4ss
+Suggests: doMC, testthat
 License: European Union Public License
-MD5sum: 4afdac11d4646fb214f8c353fbb9211a
+MD5sum: 891b1dec294b8abe6ab41de2b66f2b24
 NeedsCompilation: no
 
