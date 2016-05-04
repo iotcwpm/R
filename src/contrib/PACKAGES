@@ -49,11 +49,12 @@ MD5sum: 098c328bbf72ce2c286878a5a484c114
 NeedsCompilation: no
 
 Package: ioalbmse
-Version: 0.1.24
-Depends: R (>= 3.2.2), FLCore (>= 2.5.20160316), FLBRP, FLife, FLash
-Imports: shiny, methods, ggplotFL, ggstance, data.table, foreach, r4ss
+Version: 0.1.28
+Depends: R (>= 3.2.2), ggplotFL, FLCore (>= 2.5.20160316), FLash,
+        FLBRP, data.table
+Imports: methods, foreach, ggstance, r4ss, FLife, shiny
 Suggests: doMC, testthat
 License: European Union Public License
-MD5sum: 891b1dec294b8abe6ab41de2b66f2b24
+MD5sum: 8c7a1240c26479e38034f6b6f070bd41
 NeedsCompilation: no
 
