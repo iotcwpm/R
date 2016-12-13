@@ -1,8 +1,8 @@
 Package: FLash
-Version: 2.5.2
+Version: 2.5.99
 Depends: R(>= 2.15.0), FLCore(>= 2.5), methods
 License: GPL-2
-MD5sum: f8159ecdb4751ef474d3fadca319e8fa
+MD5sum: bc2965d367d8e2627619b095d5029db5
 NeedsCompilation: yes
 
 Package: FLBRP
@@ -14,12 +14,12 @@ MD5sum: 9dba5ebfd23d158cde1d40b968881d37
 NeedsCompilation: yes
 
 Package: FLCore
-Version: 2.6.0.20161019
+Version: 2.6.0.20161206
 Depends: R(>= 3.0), MASS, lattice
 Imports: methods, utils, Matrix, grid, stats, graphics
 Suggests: testthat
 License: GPL (>= 2)
-MD5sum: ec6344f9f6b7fd15d2dcca8267ab6ef2
+MD5sum: e64c446870314b6b96b9d0edd26ad8f7
 NeedsCompilation: no
 
 Package: ggplotFL
@@ -41,21 +41,30 @@ MD5sum: 9ec687dbf1ac9156fb8cba4e5a71c4e3
 NeedsCompilation: no
 
 Package: ioalbmse
-Version: 0.3.8
+Version: 0.4.2
 Depends: R (>= 3.2.2), foreach, ggplotFL, FLCore (>= 2.5.20160316),
         FLash, FLBRP, data.table, mse
 Imports: methods, ggstance, r4ss, FLife, shiny
 Suggests: doMC, testthat
 License: European Union Public License
-MD5sum: fe04b2f1116db657f3d14fb923883351
+MD5sum: 72673c42f0fed34ab0f2d6e6f759307c
 NeedsCompilation: no
 
 Package: mse
-Version: 0.0.1.9002
+Version: 0.0.1.9003
 Depends: methods, FLCore, data.table
 Imports: foreach
 Suggests: testthat, knitr, rmarkdown
 License: file LICENSE
-MD5sum: cb2f98e423de9e3e6c372fda7bfb467a
+MD5sum: 412afafc3c93ac43106bee32c3906568
+NeedsCompilation: no
+
+Package: r4ss
+Version: 1.24.5
+Depends: R (>= 2.10.0)
+Imports: coda, corpcor, gdata, gplots, gtools, maps, pso, stringr,
+        tcltk, truncnorm
+License: GPL-3
+MD5sum: ab34d7f4466f3f728cb941eb47b47136
 NeedsCompilation: no
 
